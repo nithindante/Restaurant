@@ -1,0 +1,20 @@
+#content{
+    background: url(./wall.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.imgContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+  
+  img{
+    width: 100%;
+  }
+  .imgContent>div {
+    border: 1px solid;
+    padding: 1rem;
+    height: fit-content;
+  }
