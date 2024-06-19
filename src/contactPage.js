@@ -1,3 +1,5 @@
+
+
 let contactPage = function () {
     let contactDiv = document.createElement('div');
 document.body.appendChild(contactDiv)
