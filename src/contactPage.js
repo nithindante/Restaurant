@@ -1,8 +1,9 @@
 
 
 let contactPage = function () {
-    let contactDiv = document.createElement('div');
-document.body.appendChild(contactDiv)
+    let menuDiv = document.querySelector('#content')
+let contactDiv = document.createElement('div');
+menuDiv.appendChild(contactDiv)
 
 let headingDiv = document.createElement('h3')
 headingDiv.textContent = 'Contact me';
@@ -24,5 +25,8 @@ phoneDiv.textContent = "9995006300"
 infoDiv.appendChild(nameDiv)
 infoDiv.appendChild(addressDiv)
 infoDiv.appendChild(phoneDiv)
+
+
 }
 
+export {contactPage}
